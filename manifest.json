@@ -1,49 +1,50 @@
 {
   "hub_version": "1.0",
   "manifest_schema": 2,
-  "updated": "2026-04-28",
+  "updated": "2026-05-22",
   "items": [
     {
-      "id": "RFX_RadialMenu",
-      "name": "RFX Radial Menu",
-      "description": "Hotkey-triggered 8-slot radial menu for fast tool switching in Maya.",
+      "id": "RFX_LightTarget",
+      "name": "RFX Light Target",
+      "description": "Target and aim area lights to any mesh or surface in Maya with one click. Distance control, angle snapping and Arnold-aware intensity presets included.",
       "version": "1.0.0",
-      "category": "Workflow",
+      "category": "Arnold / Lighting",
       "kind": "plugin",
-      "status": "free",
-      "price": "",
+      "status": "paid",
+      "price": "$2.99",
       "thumbnail": "",
-      "gumroad_url": "",
-      "gumroad_product_id": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/lighttarget",
+      "gumroad_product_id": "icoyg",
+      "shopify_url": "",
       "downloads": [
         {
-          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/radialmenu-1.0.0/RFX_RadialMenu.zip",
+          "url": "",
           "format": "zip"
         }
       ],
       "install": {
         "dcc": "maya",
         "target": "scripts",
-        "subfolder": "RFX_RadialMenu",
-        "entry_point": "RFX_RadialMenu.py"
+        "subfolder": "RFX_LightTarget"
       },
       "coming_soon": false
     },
     {
       "id": "RFX_FocusPicker",
-      "name": "RFX Focus Picker",
-      "description": "Click-to-pick Arnold DOF focus distance via viewport raycasting.",
+      "name": "Focus Picker",
+      "description": "FREE camera focus tool for Maya. Click-to-pick Arnold DOF focus distance via viewport raycasting. Two-way sync with Arnold AE for instant depth-of-field control.",
       "version": "1.0.0",
       "category": "Arnold / Camera",
       "kind": "plugin",
-      "status": "paid",
-      "price": "$12",
+      "status": "free",
+      "price": "",
       "thumbnail": "",
-      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfx-focuspicker",
-      "gumroad_product_id": "REPLACE_WITH_GUMROAD_PRODUCT_ID",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfxfocuspicker",
+      "gumroad_product_id": "wwqctv",
+      "shopify_url": "",
       "downloads": [
         {
-          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/focuspicker-1.0.0/RFX_FocusPicker.zip",
+          "url": "https://github.com/amarshindebiz/rfx_hub/releases/download/focuspicker-1.1.0/RFX_FocusPicker_v1.1.zip",
           "format": "zip"
         }
       ],
@@ -55,34 +56,155 @@
       "coming_soon": false
     },
     {
-      "id": "RFX_CrystalGen",
-      "name": "RFX CrystalGen",
-      "description": "Procedural crystal generator with 9 types and Arnold shading presets.",
+      "id": "RFX_AreaLightMaps_Plugin",
+      "name": "Area Light Maps Vol 1 — Maya Plugin",
+      "description": "Apply the Area Light Maps library directly to Arnold area lights from a dockable Maya UI. Instant soft, tonal lighting with live preview and one-click swap.",
       "version": "1.0.0",
-      "category": "Procedural / Geo",
+      "category": "Arnold / Lighting",
       "kind": "plugin",
       "status": "paid",
-      "price": "$18",
+      "price": "$29.99",
       "thumbnail": "",
-      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfx-crystalgen",
-      "gumroad_product_id": "REPLACE_WITH_GUMROAD_PRODUCT_ID",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfxarealightmaps",
+      "gumroad_product_id": "qhqfj",
+      "shopify_url": "",
       "downloads": [
         {
-          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/crystalgen-1.0.0/RFX_CrystalGen.zip",
+          "url": "",
           "format": "zip"
         }
       ],
       "install": {
         "dcc": "maya",
         "target": "scripts",
-        "subfolder": "RFX_CrystalGen"
+        "subfolder": "RFX_AreaLightMaps"
       },
       "coming_soon": false
     },
     {
+      "id": "RFX_CameraFilterMap",
+      "name": "RFX Camera Filter Map",
+      "description": "Apply filmic color and lens filter maps directly to the Arnold camera node. Real-time preview, save and recall presets.",
+      "version": "1.0.0",
+      "category": "Arnold / Camera",
+      "kind": "plugin",
+      "status": "paid",
+      "price": "$14",
+      "thumbnail": "",
+      "gumroad_url": "",
+      "gumroad_product_id": "",
+      "shopify_url": "",
+      "install": {
+        "dcc": "maya",
+        "target": "scripts",
+        "subfolder": "RFX_CameraFilterMap"
+      },
+      "coming_soon": true
+    },
+    {
+      "id": "RFX_ColorStory",
+      "name": "RFX Color Story",
+      "description": "Extract dominant colors from any HDRI or image and push them as tinted shader suggestions into your Arnold scene in one click.",
+      "version": "1.0.0",
+      "category": "Arnold / Lookdev",
+      "kind": "plugin",
+      "status": "paid",
+      "price": "$16",
+      "thumbnail": "",
+      "gumroad_url": "",
+      "gumroad_product_id": "",
+      "shopify_url": "",
+      "install": {
+        "dcc": "maya",
+        "target": "scripts",
+        "subfolder": "RFX_ColorStory"
+      },
+      "coming_soon": true
+    },
+    {
+      "id": "RFX_RampGenerator",
+      "name": "RFX Ramp Generator",
+      "description": "Build complex Arnold ramp shaders visually with live preview. Save and reuse gradient presets across scenes.",
+      "version": "1.0.0",
+      "category": "Arnold / Shading",
+      "kind": "plugin",
+      "status": "paid",
+      "price": "$12",
+      "thumbnail": "",
+      "gumroad_url": "",
+      "gumroad_product_id": "",
+      "shopify_url": "",
+      "install": {
+        "dcc": "maya",
+        "target": "scripts",
+        "subfolder": "RFX_RampGenerator"
+      },
+      "coming_soon": true
+    },
+    {
+      "id": "RFX_SmartOrganizer",
+      "name": "RFX Smart Organizer",
+      "description": "Scan your Maya scene and automatically sort meshes, lights and cameras into display layers and outliner groups.",
+      "version": "1.3.0",
+      "category": "Maya / Workflow",
+      "kind": "plugin",
+      "status": "paid",
+      "price": "$15",
+      "thumbnail": "",
+      "gumroad_url": "",
+      "gumroad_product_id": "",
+      "shopify_url": "",
+      "install": {
+        "dcc": "maya",
+        "target": "scripts",
+        "subfolder": "RFX_SmartOrganizer"
+      },
+      "coming_soon": true
+    },
+    {
+      "id": "RFX_Backdrop",
+      "name": "RFX Backdrop",
+      "description": "One-click cove geometry and gradient backdrop generator for clean product renders in Arnold.",
+      "version": "1.0.0",
+      "category": "Arnold / Lighting",
+      "kind": "plugin",
+      "status": "paid",
+      "price": "$14",
+      "thumbnail": "",
+      "gumroad_url": "",
+      "gumroad_product_id": "",
+      "shopify_url": "",
+      "install": {
+        "dcc": "maya",
+        "target": "scripts",
+        "subfolder": "RFX_Backdrop"
+      },
+      "coming_soon": true
+    },
+    {
+      "id": "RFX_SceneIntel",
+      "name": "RFX Scene Intel",
+      "description": "AI-style scene health advisor. Scores scene quality and shows a preview diff before any operation runs.",
+      "version": "1.0.0",
+      "category": "Maya / Workflow",
+      "kind": "plugin",
+      "status": "paid",
+      "price": "$18",
+      "thumbnail": "",
+      "gumroad_url": "",
+      "gumroad_product_id": "",
+      "shopify_url": "",
+      "install": {
+        "dcc": "maya",
+        "target": "scripts",
+        "subfolder": "RFX_SceneIntel"
+      },
+      "coming_soon": true
+    },
+    {
       "id": "RFX_HoudiniBridge",
       "name": "RFX Houdini Bridge",
-      "description": "Sample Houdini Python tool delivered as a package folder.",
+      "description": "Utility OTL package for passing Houdini geometry and cache data back to Maya over a live file bridge.",
       "version": "0.1.0",
       "category": "Workflow",
       "kind": "plugin",
@@ -91,23 +213,38 @@
       "thumbnail": "",
       "gumroad_url": "",
       "gumroad_product_id": "",
-      "downloads": [
-        {
-          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/houdinibridge-0.1.0/RFX_HoudiniBridge.zip",
-          "format": "zip"
-        }
-      ],
+      "shopify_url": "",
       "install": {
         "dcc": "houdini",
-        "target": "scripts",
+        "target": "otls",
         "subfolder": "rfx_houdini_bridge"
+      },
+      "coming_soon": true
+    },
+    {
+      "id": "RFX_NukeColorTools",
+      "name": "RFX Nuke Color Tools",
+      "description": "A suite of compositing gizmos for filmic grade, halation, chromatic aberration and lens distortion in Foundry Nuke.",
+      "version": "1.0.0",
+      "category": "Nuke / Compositing",
+      "kind": "plugin",
+      "status": "paid",
+      "price": "$24",
+      "thumbnail": "",
+      "gumroad_url": "",
+      "gumroad_product_id": "",
+      "shopify_url": "",
+      "install": {
+        "dcc": "nuke",
+        "target": "gizmos",
+        "subfolder": "RFX_ColorTools"
       },
       "coming_soon": true
     },
     {
       "id": "RFX_BlenderStarter",
       "name": "RFX Blender Starter",
-      "description": "Sample Blender add-on showing the install flow for Blender targets.",
+      "description": "Starter add-on pack for Blender with RFX workflow shortcuts, render presets and a scene organizer.",
       "version": "0.1.0",
       "category": "Workflow",
       "kind": "plugin",
@@ -116,12 +253,7 @@
       "thumbnail": "",
       "gumroad_url": "",
       "gumroad_product_id": "",
-      "downloads": [
-        {
-          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/blenderstarter-0.1.0/rfx_blender_starter.zip",
-          "format": "zip"
-        }
-      ],
+      "shopify_url": "",
       "install": {
         "dcc": "blender",
         "target": "addons",
@@ -130,101 +262,396 @@
       "coming_soon": true
     },
     {
-      "id": "RFX_LightMaps_Pack",
-      "name": "RFX Area Light Maps",
-      "description": "50 curated gradient and IES-style maps for Arnold area lights.",
+      "id": "RFX_AreaLightMaps_Vol1",
+      "name": "Area Light Maps Vol 1 — Maps",
+      "description": "High-resolution gradient and tonal greyscale maps for Arnold area lights. Use in Maya via the companion plugin or drop directly into any renderer as emissive or filter maps.",
       "version": "1.0.0",
-      "category": "HDRIs",
+      "category": "Maps",
       "kind": "asset",
       "status": "paid",
-      "price": "$15",
+      "price": "$29.99",
       "thumbnail": "",
-      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfx-lightmaps",
-      "gumroad_product_id": "REPLACE_WITH_GUMROAD_PRODUCT_ID",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfxarealightmaps",
+      "gumroad_product_id": "qhqfj",
+      "shopify_url": "",
       "downloads": [
         {
-          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/lightmaps-1.0.0/RFX_LightMaps.zip",
+          "url": "",
           "format": "zip"
         }
       ],
       "install": {
         "dcc": "any",
         "target": "library",
-        "library": "hdris",
-        "subfolder": "RFX_LightMaps"
+        "library": "maps",
+        "subfolder": "RFX_AreaLightMaps_Vol1"
       },
       "coming_soon": false
     },
     {
-      "id": "RFX_DecalSheet_Pack",
-      "name": "RFX Decal Sheets v1",
-      "description": "Sheets 15-24 \u2014 mech and tank aesthetic, bilingual labels, alpha-ready.",
+      "id": "RFX_HDRIStudio_Essential_Kit",
+      "name": "HDRI Studio Essential Kit",
+      "description": "90 HDR lighting maps in 8 folders — Basic, Dark, Sepia, Neon, Stripes, Tint, Vivid and Bonus. Each map is 10K x 5K, 32-bit HDR format. Compatible with any 3D renderer.",
       "version": "1.0.0",
-      "category": "Textures",
+      "category": "Maps",
       "kind": "asset",
       "status": "paid",
-      "price": "$22",
+      "price": "$29.99",
       "thumbnail": "",
-      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfx-decals",
-      "gumroad_product_id": "REPLACE_WITH_GUMROAD_PRODUCT_ID",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/hdristudiovol1",
+      "gumroad_product_id": "JGHCV",
+      "shopify_url": "",
       "downloads": [
         {
-          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/decals-1.0.0/RFX_DecalSheets_v1.zip",
+          "url": "",
           "format": "zip"
         }
       ],
       "install": {
         "dcc": "any",
         "target": "library",
-        "library": "textures",
-        "subfolder": "RFX_DecalSheets_v1"
+        "library": "maps",
+        "subfolder": "RFX_HDRIStudio_Essential_Kit"
       },
       "coming_soon": false
     },
     {
-      "id": "RFX_DestructionShot_Project",
-      "name": "Destruction Shot Project",
-      "description": "Full Maya/Houdini cinematic destruction project with breakdown.",
+      "id": "RFX_Planetize_Vol1",
+      "name": "Planetize Collection Vol 1",
+      "description": "Planet surface and cosmic terrain greyscale maps — Displacement, Normal, Roughness and Specular channels at 4K. Designed for sci-fi renders and space environments.",
       "version": "1.0.0",
-      "category": "Project Files",
+      "category": "Maps",
       "kind": "asset",
       "status": "paid",
-      "price": "$45",
+      "price": "$9.95",
       "thumbnail": "",
-      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfx-destruction",
-      "gumroad_product_id": "REPLACE_WITH_GUMROAD_PRODUCT_ID",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/Planetize",
+      "gumroad_product_id": "dmeab",
+      "shopify_url": "",
       "downloads": [
         {
-          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/destruction-1.0.0/RFX_DestructionShot.zip",
+          "url": "",
           "format": "zip"
         }
       ],
       "install": {
         "dcc": "any",
         "target": "library",
-        "library": "projects",
-        "subfolder": "RFX_DestructionShot"
+        "library": "maps",
+        "subfolder": "RFX_Planetize_Vol1"
       },
-      "coming_soon": true
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_Algorithmic_Vol1",
+      "name": "Algorithmic Collection Vol 1",
+      "description": "Procedurally generated surface maps for hard-surface and abstract renders — Displacement, Normal, Roughness and Specular channels at 4K.",
+      "version": "1.0.0",
+      "category": "Maps",
+      "kind": "asset",
+      "status": "paid",
+      "price": "$9.99",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/algorithmicvol1",
+      "gumroad_product_id": "wkcyg",
+      "shopify_url": "",
+      "downloads": [
+        {
+          "url": "",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "maps",
+        "subfolder": "RFX_Algorithmic_Vol1"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_WestCoast_Vol1",
+      "name": "West Coast Vol 1",
+      "description": "Coastal ground displacement maps — wet sand, pebble beaches and sea-worn rock. Displacement, Normal, Roughness and Specular channels at 4K.",
+      "version": "1.0.0",
+      "category": "Maps",
+      "kind": "asset",
+      "status": "paid",
+      "price": "$4.99",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/westcoastvol1",
+      "gumroad_product_id": "duidqc",
+      "shopify_url": "",
+      "downloads": [
+        {
+          "url": "",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "maps",
+        "subfolder": "RFX_WestCoast_Vol1"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_Rivulet_Vol1",
+      "name": "Rivulet Collection Vol 1",
+      "description": "Water flow and rivulet channel displacement maps for wet ground and rain-soaked surfaces. 4K resolution, multi-DCC and multi-renderer compatible.",
+      "version": "1.0.0",
+      "category": "Maps",
+      "kind": "asset",
+      "status": "paid",
+      "price": "$9.95",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rivuletvol1",
+      "gumroad_product_id": "ynHtI",
+      "shopify_url": "",
+      "downloads": [
+        {
+          "url": "",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "maps",
+        "subfolder": "RFX_Rivulet_Vol1"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_FreePuddle",
+      "name": "FREE Puddle Map",
+      "description": "A free sample puddle displacement map — Displacement, Roughness, Specular and Normal channels at 4K. Works with Arnold, Redshift, V-Ray, Octane and more.",
+      "version": "1.0.0",
+      "category": "Maps",
+      "kind": "asset",
+      "status": "free",
+      "price": "",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/freepuddle",
+      "gumroad_product_id": "vVQZP",
+      "shopify_url": "",
+      "downloads": [
+        {
+          "url": "https://github.com/amarshindebiz/rfx_hub/releases/download/freepuddle-1.0.0/RFX_FreePuddle.zip",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "maps",
+        "subfolder": "RFX_FreePuddle"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_Puddle_Vol1",
+      "name": "Puddle Collection Vol 1",
+      "description": "20 puddle displacement maps plus 1 bonus — Displacement, Diffuse, Roughness, Specular and Normal channels at 4K. Compatible with Maya, C4D, 3DS Max, Blender, Modo and Houdini. Works with Arnold, Octane, Redshift, Corona and V-Ray.",
+      "version": "1.0.0",
+      "category": "Maps",
+      "kind": "asset",
+      "status": "paid",
+      "price": "$4.99",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/puddlevol1",
+      "gumroad_product_id": "GFWlu",
+      "shopify_url": "",
+      "downloads": [
+        {
+          "url": "",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "maps",
+        "subfolder": "RFX_Puddle_Vol1"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_Valley_Vol1",
+      "name": "Valley Collection Vol 1",
+      "description": "Valley floor and hillside ground displacement maps with organic surface variation. Displacement, Normal, Roughness and Specular channels at 4K.",
+      "version": "1.0.0",
+      "category": "Maps",
+      "kind": "asset",
+      "status": "paid",
+      "price": "$4.99",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/valleyvol1",
+      "gumroad_product_id": "PbchJ",
+      "shopify_url": "",
+      "downloads": [
+        {
+          "url": "",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "maps",
+        "subfolder": "RFX_Valley_Vol1"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_Canyon_Vol1",
+      "name": "Canyon Collection Vol 1",
+      "description": "Layered sandstone and canyon rock displacement maps with deep crack and strata detail. 4K resolution, compatible with all major 3D renderers.",
+      "version": "1.0.0",
+      "category": "Maps",
+      "kind": "asset",
+      "status": "paid",
+      "price": "$4.95",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/canyonvol1",
+      "gumroad_product_id": "wAwDX",
+      "shopify_url": "",
+      "downloads": [
+        {
+          "url": "",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "maps",
+        "subfolder": "RFX_Canyon_Vol1"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_Terrain_Vol2",
+      "name": "Terrain Collection Vol 2",
+      "description": "Rugged highland and moorland displacement maps. Displacement, Normal, Roughness and Specular channels at 4K resolution.",
+      "version": "1.0.0",
+      "category": "Maps",
+      "kind": "asset",
+      "status": "paid",
+      "price": "$4.95",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/terrainvol2",
+      "gumroad_product_id": "NnpzF",
+      "shopify_url": "",
+      "downloads": [
+        {
+          "url": "",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "maps",
+        "subfolder": "RFX_Terrain_Vol2"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_Terrain_Vol1",
+      "name": "Terrain Collection Vol 1",
+      "description": "Cinematic terrain displacement maps for vast exterior environments. Displacement, Normal, Roughness and Specular channels at 4K resolution.",
+      "version": "1.0.0",
+      "category": "Maps",
+      "kind": "asset",
+      "status": "paid",
+      "price": "$4.99",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/terrainvol1",
+      "gumroad_product_id": "hcPlR",
+      "shopify_url": "",
+      "downloads": [
+        {
+          "url": "",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "maps",
+        "subfolder": "RFX_Terrain_Vol1"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_Cloth_Vol1",
+      "name": "Cloth Collection Vol 1",
+      "description": "3D woven fabric and cloth assets with fine surface detail. Multi-format geometry compatible with Maya, Houdini, Blender and C4D.",
+      "version": "1.0.0",
+      "category": "3D",
+      "kind": "asset",
+      "status": "paid",
+      "price": "$4.99",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/clothvol1",
+      "gumroad_product_id": "KcvwT",
+      "shopify_url": "",
+      "downloads": [
+        {
+          "url": "",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "3d",
+        "subfolder": "RFX_Cloth_Vol1"
+      },
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_CloudVDB_Vol1",
+      "name": "Cloud VDB Collection Vol 1",
+      "description": "Volumetric VDB cloud models ready to drop into any 3D scene. Cumulus, stratus and storm cloud variations. Compatible with Houdini, Maya, C4D and Blender.",
+      "version": "1.0.0",
+      "category": "VDB",
+      "kind": "asset",
+      "status": "paid",
+      "price": "$4.99",
+      "thumbnail": "",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/cloudvdbvol1",
+      "gumroad_product_id": "UAzVO",
+      "shopify_url": "",
+      "downloads": [
+        {
+          "url": "",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "any",
+        "target": "library",
+        "library": "vdb",
+        "subfolder": "RFX_CloudVDB_Vol1"
+      },
+      "coming_soon": false
     },
     {
       "id": "RFX_FullPipeline_Course",
       "name": "Full-Pipeline VFX Training",
-      "description": "Multi-DCC course covering Houdini sim, Maya layout, Arnold lighting, Nuke comp.",
+      "description": "Multi-DCC course covering Houdini sim, Maya layout, Arnold lighting and Nuke comp from scratch to final frame.",
       "version": "1.0.0",
       "category": "Training",
       "kind": "training",
       "status": "paid",
       "price": "$79",
       "thumbnail": "",
-      "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfx-pipeline-course",
-      "gumroad_product_id": "REPLACE_WITH_GUMROAD_PRODUCT_ID",
-      "downloads": [
-        {
-          "url": "https://github.com/amarshindebiz/reimaginefx/releases/download/course-1.0.0/RFX_FullPipeline_Materials.zip",
-          "format": "zip"
-        }
-      ],
+      "gumroad_url": "",
+      "gumroad_product_id": "",
+      "shopify_url": "",
       "install": {
         "dcc": "any",
         "target": "library",
@@ -232,6 +659,123 @@
         "subfolder": "RFX_FullPipeline_Course"
       },
       "coming_soon": true
+    },
+    {
+      "id": "link_youtube",
+      "name": "YouTube",
+      "description": "Free tutorials, tool breakdowns and making-of videos for Maya, Houdini, Arnold and Nuke.",
+      "version": "1.0.0",
+      "category": "Connect",
+      "kind": "link",
+      "status": "free",
+      "price": "",
+      "thumbnail": "",
+      "external_url": "https://www.youtube.com/@reimaginefx",
+      "coming_soon": false
+    },
+    {
+      "id": "link_skillshare",
+      "name": "Skillshare",
+      "description": "Structured courses on Maya, Arnold and VFX pipeline on Skillshare. Beginner to advanced.",
+      "version": "1.0.0",
+      "category": "Connect",
+      "kind": "link",
+      "status": "free",
+      "price": "",
+      "thumbnail": "",
+      "external_url": "https://www.skillshare.com/en/user/reimaginefx",
+      "coming_soon": false
+    },
+    {
+      "id": "link_patreon",
+      "name": "Patreon",
+      "description": "Support Reimagine FX on Patreon. Members get early access, behind-the-scenes breakdowns and exclusive content drops.",
+      "version": "1.0.0",
+      "category": "Connect",
+      "kind": "link",
+      "status": "free",
+      "price": "",
+      "thumbnail": "",
+      "external_url": "https://www.patreon.com/reimaginefx",
+      "coming_soon": false
+    },
+    {
+      "id": "link_gumroad",
+      "name": "Gumroad Store",
+      "description": "Browse and purchase every RFX plugin, asset pack and course in the official Gumroad store.",
+      "version": "1.0.0",
+      "category": "Connect",
+      "kind": "link",
+      "status": "free",
+      "price": "",
+      "thumbnail": "",
+      "external_url": "https://reimagine-fx.gumroad.com",
+      "coming_soon": false
+    },
+    {
+      "id": "link_instagram",
+      "name": "Instagram",
+      "description": "Daily renders, work-in-progress shots and behind-the-scenes from the Reimagine FX studio.",
+      "version": "1.0.0",
+      "category": "Connect",
+      "kind": "link",
+      "status": "free",
+      "price": "",
+      "thumbnail": "",
+      "external_url": "https://www.instagram.com/reimaginefx",
+      "coming_soon": false
+    },
+    {
+      "id": "link_website",
+      "name": "reimaginefx.com",
+      "description": "The official Reimagine FX website with portfolio, contact and the full product catalogue.",
+      "version": "1.0.0",
+      "category": "Connect",
+      "kind": "link",
+      "status": "free",
+      "price": "",
+      "thumbnail": "",
+      "external_url": "https://reimaginefx.com",
+      "coming_soon": false
+    },
+    {
+      "id": "app_rfx_mayaviewer",
+      "name": "Maya Viewer",
+      "description": "Review Maya scenes on iPhone and in AR. Connect to your local Maya session over Wi-Fi and inspect geometry, materials, textures, cameras and lights from a clean mobile viewer. Includes AR mode for real-world placement.",
+      "version": "1.0.0",
+      "category": "Apps",
+      "kind": "app",
+      "status": "free",
+      "price": "",
+      "thumbnail": "https://reimaginefx.com/mvimages/main-maya-viewer.png",
+      "external_url": "https://apps.apple.com/us/app/maya-viewer/id6766898186",
+      "coming_soon": false
+    },
+    {
+      "id": "RFX_MayaViewer_Plugin",
+      "name": "Maya Viewer — Maya Plugin",
+      "description": "Free Maya-side Python server for the Maya Viewer iOS app. Install once, launch from the shelf, and your iPhone connects instantly over the local network. No internet required.",
+      "version": "1.0.0",
+      "category": "Maya / Workflow",
+      "kind": "plugin",
+      "status": "free",
+      "price": "",
+      "thumbnail": "https://reimaginefx.com/mvimages/connection-screen.png",
+      "gumroad_url": "",
+      "gumroad_product_id": "",
+      "shopify_url": "",
+      "downloads": [
+        {
+          "url": "https://github.com/amarshindebiz/RFX_Website/raw/main/downloads/RFX_MayaViewer.zip",
+          "format": "zip"
+        }
+      ],
+      "install": {
+        "dcc": "maya",
+        "target": "scripts",
+        "subfolder": "RFX_MayaViewer"
+      },
+      "coming_soon": false
     }
   ]
 }
