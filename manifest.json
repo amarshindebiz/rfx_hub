@@ -44,7 +44,7 @@
       "shopify_url": "",
       "downloads": [
         {
-          "url": "https://github.com/amarshindebiz/rfx_hub/releases/download/focuspicker-1.1.0/RFX_FocusPicker_v1.1.zip",
+          "url": "https://raw.githubusercontent.com/amarshindebiz/rfx_hub/main/releases/download/ReimagineFx_FocusPicker.zip",
           "format": "zip"
         }
       ],
@@ -438,7 +438,7 @@
       "shopify_url": "",
       "downloads": [
         {
-          "url": "https://github.com/amarshindebiz/rfx_hub/releases/download/freepuddle-1.0.0/RFX_FreePuddle.zip",
+          "url": "",
           "format": "zip"
         }
       ],
