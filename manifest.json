@@ -1,7 +1,7 @@
 {
   "hub_version": "1.0",
   "manifest_schema": 2,
-  "updated": "2026-05-22",
+  "updated": "2026-05-29",
   "items": [
     {
       "id": "RFX_LightTarget",
@@ -12,7 +12,7 @@
       "kind": "plugin",
       "status": "paid",
       "price": "$2.99",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/ml3rkznawjweqf2eb6gm0r0xxul3",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/lighttarget",
       "gumroad_product_id": "icoyg",
       "shopify_url": "",
@@ -27,7 +27,11 @@
         "target": "scripts",
         "subfolder": "RFX_LightTarget"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/ml3rkznawjweqf2eb6gm0r0xxul3"
+      ],
+      "long_description": "What it does\n\nPlace a target locator anywhere in your scene — at world origin, snapped to any mesh surface with a single click, or linked to a shared target that multiple lights track simultaneously. Every light stays aimed at its target through an aim constraint. Move the target, the light follows. Move the light, it still faces the target. Set it once and never touch your light rotation again.\n\nSingle light workflow\n\n- Create target at world origin or snap it to any mesh surface in one click\n- Reposition the target to a new surface point at any time without breaking the constraint\n- Hide, show, lock, resize and rename your target locator\n- Unlink a light from its target without deleting the locator\n- Full undo support on every operation\n\nMulti-light workflow\n\n- See all your Arnold lights in a checklist with their target name shown at a glance\n- Create individual targets for every selected light in one operation\n- Create one shared target and aim every selected light at it simultaneously\n- Link any new light to an existing shared target at any time\n- Bulk hide, show, lock, unlock, and delete targets across your entire lighting rig\n\nBuilt for production\n\n- Target names persist after rename — the plugin tracks targets by UUID so nothing breaks\n- UI preferences and light-target links are saved with your Maya scene file\n- Works alongside other RFX plugins without any conflicts\n- Dockable panel — park it anywhere in your Maya layout\n- Auto-refreshes when lights are added or deleted from the scene\n\nRequirements\n\n- Maya 2025 or 2026\n- Arnold / MtoA 5.5.x or later\n- Windows 10 or 11\n- Python and PySide6 are bundled with Maya — no additional installs needed\n\nWhat's included\n\n- RFX_LightTarget plugin folder — ready to install\n- One-click shelf installer\n- PDF installation guide with step-by-step instructions\n\nInstallation takes under two minutes. Drop the plugin folder into your Maya scripts directory, paste four lines into the Script Editor, click OK. That's it. A shelf button appears and you're ready to go.\n\nBuilt by Amar Shinde at Reimagine Fx. Questions or issues — reach out on Discord (Reimagine Fx Community) or at reimaginefx@gmail.com. If the plugin saves you time, a review means the world."
     },
     {
       "id": "RFX_FocusPicker",
@@ -38,7 +42,7 @@
       "kind": "plugin",
       "status": "free",
       "price": "",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/6aqi6j6iyqnwaex7voz8jk2zbo67",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfxfocuspicker",
       "gumroad_product_id": "wwqctv",
       "shopify_url": "",
@@ -53,7 +57,11 @@
         "target": "scripts",
         "subfolder": "RFX_FocusPicker"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/6aqi6j6iyqnwaex7voz8jk2zbo67"
+      ],
+      "long_description": "RFX FocusPicker — Arnold Camera Focus Tool for Maya\n\nStop reading numbers from the HUD. Stop typing them in by hand. One click in the viewport sets your focus distance instantly.\n\nWhat it does\n\nRFX FocusPicker is a professional depth-of-field workflow tool for Maya and Arnold. It replaces the slow, frustrating process of manually finding and entering focus distances with a single viewport ray-cast. Click any surface in your scene and the exact distance is measured and written directly to your Arnold camera — no HUD, no guesswork, no interruption to your creative flow.\n\nFeatures\n\n- One-click viewport pick — click any mesh surface to set focus distance instantly\n- Live two-way sync — change values in the plugin and they update in Arnold's attribute editor immediately, and vice versa. Edit from the Channel Box, Arnold tab, or our tool — everything stays in sync\n- Ctrl+MMB drag on the field or drag the label to scrub values exactly like Maya's Channel Box\n- DOF toggle — enable and disable Arnold depth of field with a single checkbox\n- Aperture control — adjust aiApertureSize with full scrub support\n- Camera management — create new RFX cameras, delete cameras, and switch between all render cameras in the scene from one dropdown\n- Refresh without losing your camera — clicking Refresh always returns to your current camera, never jumps to a different one\n- Resizable window — drag the window wider to give your controls more room\n- One-click shelf installer — installs a button on the ReimagineFx_Tools shelf automatically. Safe to run multiple times, never creates duplicates\n- Arnold-first with native Maya fallback — works with Arnold cameras. Falls back to native Maya focus attributes if Arnold is not present\n\nRequirements\n\n- Maya 2025 or Maya 2026\n- Arnold for Maya (MtoA) installed and loaded\n- Windows 10 or 11\n\nWhat's included\n\n- RFX FocusPicker plugin folder (ready to install)\n- Step-by-step Installation Guide PDF\n- Shelf installer script\n\nInstallation takes under two minutes. Copy one folder to your Maya scripts directory, paste four lines into the Script Editor, and you're done. Full instructions are included in the PDF.\n\nAbout Reimagine Fx\n\nRFX FocusPicker was built by Amar Shinde at Reimagine Fx to help 3D Artists work faster and smarter inside Maya and Arnold. Every detail was crafted to fit naturally into your existing workflow — not replace it.\n\nIf you enjoy using the tool, please consider leaving a review or sharing it with a fellow artist. It means the world to us and helps us keep building professional tools for the Maya community.\n\nwww.reimaginefx.com"
     },
     {
       "id": "RFX_AreaLightMaps_Plugin",
@@ -64,7 +72,7 @@
       "kind": "plugin",
       "status": "paid",
       "price": "$29.99",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/gd38348cn83mes3uzyl2xjvlnlh3",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfxarealightmaps",
       "gumroad_product_id": "qhqfj",
       "shopify_url": "",
@@ -79,7 +87,11 @@
         "target": "scripts",
         "subfolder": "RFX_AreaLightMaps"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/gd38348cn83mes3uzyl2xjvlnlh3"
+      ],
+      "long_description": "Reimagine Fx Area Light Maps Volume 1\n\n50 professional EXR area light maps built for lighting artists who want beautiful, realistic lighting without spending hours setting up lights from scratch.\n\nEach map is captured and processed specifically for LookDev Artists — giving you soft, natural, physically accurate lighting with a single click.\n\nWhat is included: 50 EXR light maps at 2K resolution, 50 PNG thumbnail previews, and the Reimagine Fx ALM Plugin for Maya and Arnold.\n\nThe Plugin: The included Maya plugin is a professional area light map browser built specifically for Arnold. Browse all 50 maps visually, click to apply instantly, and manage your lights without ever leaving your viewport. No manual file loading, no guesswork.\n\nPlugin features include one-click apply to new or existing Arnold area lights, smart exposure and spread defaults on new lights while preserving your existing values, a Favourites tab for your most used maps, a Color Temperature tab with per-light Kelvin and exposure sliders that sync live with the Attribute Editor, full Ctrl+Z undo support, and temperature settings that save with your Maya scene file.\n\nPlugin Compatible with: Maya 2025 and Maya 2026, Arnold renderer (mtoa), Windows 10 and 11.\n\nThe EXR maps are compatible with any 3D software including Blender, Houdini, Cinema 4D, and 3ds Max. The plugin is Maya and Arnold only.\n\nWho is this for: Product visualisation artists, automotive lighting artists, studio lighting artists, and anyone who wants to add professional quality area lighting to their renders quickly.\n\nFrom Reimagine Fx: Built by a lighting artist for lighting artists. Every map in this collection was crafted to give you production quality results straight out of the box."
     },
     {
       "id": "RFX_CameraFilterMap",
@@ -270,7 +282,7 @@
       "kind": "asset",
       "status": "paid",
       "price": "$29.99",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/gd38348cn83mes3uzyl2xjvlnlh3",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/rfxarealightmaps",
       "gumroad_product_id": "qhqfj",
       "shopify_url": "",
@@ -286,7 +298,11 @@
         "library": "maps",
         "subfolder": "RFX_AreaLightMaps_Vol1"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/gd38348cn83mes3uzyl2xjvlnlh3"
+      ],
+      "long_description": "Reimagine Fx Area Light Maps Volume 1\n\n50 professional EXR area light maps built for lighting artists who want beautiful, realistic lighting without spending hours setting up lights from scratch.\n\nEach map is captured and processed specifically for LookDev Artists — giving you soft, natural, physically accurate lighting with a single click.\n\nWhat is included: 50 EXR light maps at 2K resolution, 50 PNG thumbnail previews, and the Reimagine Fx ALM Plugin for Maya and Arnold.\n\nThe EXR maps are compatible with any 3D software including Blender, Houdini, Cinema 4D, and 3ds Max. Use them as emissive or filter maps on area lights in any renderer.\n\nWho is this for: Product visualisation artists, automotive lighting artists, studio lighting artists, and anyone who wants to add professional quality area lighting to their renders quickly.\n\nFrom Reimagine Fx: Built by a lighting artist for lighting artists. Every map in this collection was crafted to give you production quality results straight out of the box."
     },
     {
       "id": "RFX_HDRIStudio_Essential_Kit",
@@ -297,7 +313,7 @@
       "kind": "asset",
       "status": "paid",
       "price": "$29.99",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/d0zmh97l8vdwymx13h58pijom2kl",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/hdristudiovol1",
       "gumroad_product_id": "JGHCV",
       "shopify_url": "",
@@ -313,7 +329,11 @@
         "library": "maps",
         "subfolder": "RFX_HDRIStudio_Essential_Kit"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/d0zmh97l8vdwymx13h58pijom2kl"
+      ],
+      "long_description": "HDRI Studio Essential Kit\n\nHDRI Studio Essential Kit is a collection of 90 unique HDRIs. Each HDR is designed to give a unique and moody look to your renders. Each HDRI is 10K x 5K resolution in an HDR format (32 Bit). It is compatible with any 3D program. No more manual lighting for your scenes — just drop one HDRI and you're good to go. Enjoy.\n\nWhat's Inside:\n\n- 8 Folders\n- Total 90 HDRI files\n- Thumbnail preview for each HDRI\n\nFolders:\n\n- Basic (15 HDRI)\n- Dark (10 HDRI)\n- Sepia (10 HDRI)\n- Neon (10 HDRI)\n- Stripes (10 HDRI)\n- Tint (10 HDRI)\n- Vivid (10 HDRI)\n- Bonus (15 HDRI)\n\nAll HDRIs are compatible with all render engines."
     },
     {
       "id": "RFX_Planetize_Vol1",
@@ -324,7 +344,7 @@
       "kind": "asset",
       "status": "paid",
       "price": "$9.95",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/lkebxzyi1y20zirnc0ffr73djnfg",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/Planetize",
       "gumroad_product_id": "dmeab",
       "shopify_url": "",
@@ -340,7 +360,11 @@
         "library": "maps",
         "subfolder": "RFX_Planetize_Vol1"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/lkebxzyi1y20zirnc0ffr73djnfg"
+      ],
+      "long_description": "Unleash the power of detail and precision with Planetize Collection Volume 1 — your ultimate solution for creating mesmerizing micro renders in 3D design. Designed to elevate your projects to new heights, this digital asset harnesses the magic of displacement maps, turning your 3D designs into intricate masterpieces.\n\nPlanetize Collection Volume 1 is a collection of 20 unique greyscale maps. Each map is 4K x 4K resolution in a PNG (16 Bit) format. Give your dailies a unique new look. These maps can be used for all sorts of purposes — bump map, displacement map, color map, or even roughness map. Feel free to look at some of my personal renders to get some idea of how to explore them. Dive into creating a new look for your renders.\n\nWhat's Inside:\n\n- 20 Color Maps (4K x 4K) PNG (16 Bit)\n- 20 Greyscale Maps (4K x 4K) PNG (16 Bit)\n\nDetails\n\n- File Size — 1.74 GB\n- Compatible with any 3D program or render engine."
     },
     {
       "id": "RFX_Algorithmic_Vol1",
@@ -351,7 +375,7 @@
       "kind": "asset",
       "status": "paid",
       "price": "$9.99",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/m8aitggr7udj5i57wb7myzkzpsz7",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/algorithmicvol1",
       "gumroad_product_id": "wkcyg",
       "shopify_url": "",
@@ -367,7 +391,11 @@
         "library": "maps",
         "subfolder": "RFX_Algorithmic_Vol1"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/m8aitggr7udj5i57wb7myzkzpsz7"
+      ],
+      "long_description": "Algorithmic Collection Volume 1\n\nAlgorithmic Collection Volume 1 is a collection of 200 unique greyscale maps. Each map is 8K x 8K resolution in a PNG (16 Bit) format. Give your dailies a unique new look. These maps can be used for all sorts of purposes — bump map, displacement map, emission map, or even roughness map. Feel free to look at some of my personal renders to get some idea of how to explore them. Dive into creating a new look for your renders.\n\nWhat's Inside:\n\n- 200 Greyscale Maps (8K x 8K) PNG (16 Bit)\n- 20 Bonus Maps (8K x 8K) PNG (16 Bit)\n\nDetails\n\n- File Size — 1.65 GB\n- Compatible with any 3D program or render engine."
     },
     {
       "id": "RFX_WestCoast_Vol1",
@@ -378,7 +406,7 @@
       "kind": "asset",
       "status": "paid",
       "price": "$4.99",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/b6r2k0l82xt7gg7ocpzofm40hxir",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/westcoastvol1",
       "gumroad_product_id": "duidqc",
       "shopify_url": "",
@@ -394,7 +422,11 @@
         "library": "maps",
         "subfolder": "RFX_WestCoast_Vol1"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/b6r2k0l82xt7gg7ocpzofm40hxir"
+      ],
+      "long_description": "West Coast Volume 1\n\nWest Coast Volume 1 is a collection of 15 unique coast terrain maps. Each map is 2K x 2K resolution in PNG (16 Bit) and OpenEXR (32 Bit) format. Give your dailies a unique new look. These maps can be used for all sorts of purposes, and since the maps are 2K res they're fast and easy to use for daily projects. Feel free to look at some of my personal renders to get some idea of how to explore them. Dive into creating a new look for your renders.\n\nWhat's Inside:\n\n- 15 Greyscale Maps (2K x 2K) PNG (16 Bit) & OpenEXR (32 Bit)\n- Each file has: Color, Normal & Displacement Map\n- 1 Bonus Map (4K x 4K) PNG (16 Bit) & OpenEXR (32 Bit)\n- Thumbnail preview for each terrain\n\nDetails\n\n- File Size — 1.01 GB\n- Compatible with any 3D program or render engine."
     },
     {
       "id": "RFX_Rivulet_Vol1",
@@ -405,7 +437,7 @@
       "kind": "asset",
       "status": "paid",
       "price": "$9.95",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/wy4znbz6nk231mp55z2qc0bdguad",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/rivuletvol1",
       "gumroad_product_id": "ynHtI",
       "shopify_url": "",
@@ -421,7 +453,11 @@
         "library": "maps",
         "subfolder": "RFX_Rivulet_Vol1"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/wy4znbz6nk231mp55z2qc0bdguad"
+      ],
+      "long_description": "Rivulet Collection Volume 1\n\nRivulet Collection Volume 1 is a collection of 150+ unique greyscale maps. Each map is 4K x 4K resolution in a PNG (16 Bit) format. Give your dailies a unique new look. These maps can be used for all sorts of purposes — bump map, displacement map, emission map, or even roughness map. Feel free to look at some of my personal renders to get some idea of how to explore them. Dive into creating a new look for your renders.\n\nWhat's Inside:\n\n- 150 Greyscale Maps (4K x 4K) PNG (16 Bit)\n- 15 Bonus Maps (2K x 2K) PNG (16 Bit)\n\nDetails\n\n- File Size — 3.61 GB\n- Compatible with any 3D program or render engine."
     },
     {
       "id": "RFX_FreePuddle",
@@ -432,7 +468,7 @@
       "kind": "asset",
       "status": "free",
       "price": "",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/q44f7evwvoenfow17ql9mikvi329",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/freepuddle",
       "gumroad_product_id": "vVQZP",
       "shopify_url": "",
@@ -448,7 +484,11 @@
         "library": "maps",
         "subfolder": "RFX_FreePuddle"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/q44f7evwvoenfow17ql9mikvi329"
+      ],
+      "long_description": "Thank you to all of my subscribers for supporting me on YouTube throughout this journey. We have a long journey ahead and a big hope for this channel. To celebrate, I'm giving away one FREE Puddle. Have fun playing with this, create interesting-looking renders, and I hope it helps you with your projects. I have so many cool projects I've been working on for all of you and I can't wait to share them. Enjoy the ride.\n\nThis free sample puddle displacement map includes Displacement, Roughness, Specular and Normal channels at 4K. Works with Arnold, Redshift, V-Ray, Octane and more, across Maya, Cinema 4D, 3DS Max, Blender, Modo and Houdini.\n\nTutorials on YouTube — Reimagine Fx"
     },
     {
       "id": "RFX_Puddle_Vol1",
@@ -459,7 +499,7 @@
       "kind": "asset",
       "status": "paid",
       "price": "$4.99",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/x92m0rrtic10rgqehe5en4l62a1w",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/puddlevol1",
       "gumroad_product_id": "GFWlu",
       "shopify_url": "",
@@ -475,7 +515,13 @@
         "library": "maps",
         "subfolder": "RFX_Puddle_Vol1"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/x92m0rrtic10rgqehe5en4l62a1w"
+      ],
+      "long_description": "Hi Guys, Welcome to Puddle Collection Vol 1\n\nWHAT'S INCLUDED IN THIS PACK\n\n- 20 Displacement Maps along with Diffuse, Roughness, Specular and Normals Map\n- 1 Bonus Puddle\n- 4K Resolution. All maps are in high resolution for the best results.\n\nThese maps are ready to work with every software you use — Maya, Cinema 4D, 3DS Max, Blender, Modo, Houdini — and can be used by different render systems as well — Arnold, Octane, Redshift, Corona, V-Ray, Pro-Render, Physical.\n\nTutorials on YouTube — Reimagine Fx\n\nEnjoy the pack!",
+      "rating": 5,
+      "reviews": 6
     },
     {
       "id": "RFX_Valley_Vol1",
@@ -486,7 +532,7 @@
       "kind": "asset",
       "status": "paid",
       "price": "$4.99",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/nljqeptyo0v6vb2em86t4q3e1djs",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/valleyvol1",
       "gumroad_product_id": "PbchJ",
       "shopify_url": "",
@@ -502,7 +548,11 @@
         "library": "maps",
         "subfolder": "RFX_Valley_Vol1"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/nljqeptyo0v6vb2em86t4q3e1djs"
+      ],
+      "long_description": "Hi Guys, Welcome to Valley Collection Vol 1\n\nWHAT'S INCLUDED IN THIS PACK\n\n- 20 Displacement Maps along with Diffuse and Normals Map\n- 4K Resolution. All maps are in Tiff format for the best results.\n\nThese maps are ready to work with every software you use — Maya, Cinema 4D, 3DS Max, Blender, MODO, Houdini — and can be used by different render systems as well — Arnold, Octane, Redshift, Corona, V-Ray, Pro-Render, Physical.\n\nEnjoy the pack!"
     },
     {
       "id": "RFX_Canyon_Vol1",
@@ -513,7 +563,7 @@
       "kind": "asset",
       "status": "paid",
       "price": "$4.95",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/cy6i7kp877h6z4vbomj14pihb80y",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/canyonvol1",
       "gumroad_product_id": "wAwDX",
       "shopify_url": "",
@@ -529,7 +579,11 @@
         "library": "maps",
         "subfolder": "RFX_Canyon_Vol1"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/cy6i7kp877h6z4vbomj14pihb80y"
+      ],
+      "long_description": "Hi Guys, Welcome to Canyon Collection Vol 1\n\nWHAT'S INCLUDED IN THIS PACK\n\n- 10 Displacement Maps along with Diffuse and Normals\n- 4K Resolution. All maps are in Tiff format for the best results.\n- 1 Bonus Canyon\n\nThese maps are ready to work with every software you use — Maya, Cinema 4D, 3DS Max, Blender, MODO, Houdini — and can be used by different render systems as well — Arnold, Octane, Redshift, Corona, V-Ray, Pro-Render, Physical.\n\nEnjoy the pack!"
     },
     {
       "id": "RFX_Terrain_Vol2",
@@ -540,7 +594,7 @@
       "kind": "asset",
       "status": "paid",
       "price": "$4.95",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/swl2rbz2ppk1n0br657md1ho1hf6",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/terrainvol2",
       "gumroad_product_id": "NnpzF",
       "shopify_url": "",
@@ -556,7 +610,11 @@
         "library": "maps",
         "subfolder": "RFX_Terrain_Vol2"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/swl2rbz2ppk1n0br657md1ho1hf6"
+      ],
+      "long_description": "Hi Guys, Welcome to Terrain Collection Vol 2\n\nWHAT'S INCLUDED IN THIS PACK\n\n- 6 Displacement Maps along with Diffuse and Normals. 8K Resolution. All maps are in Tiff format for the best results.\n- For each terrain shape, there is a render for a quick preview.\n\nThese maps are ready to work with every software you use — Maya, Cinema 4D, 3DS Max, Blender, MODO, Houdini — and can be used by different render systems as well — Arnold, Octane, Redshift, Corona, V-Ray, Pro-Render, Physical.\n\nEnjoy the pack!"
     },
     {
       "id": "RFX_Terrain_Vol1",
@@ -567,7 +625,7 @@
       "kind": "asset",
       "status": "paid",
       "price": "$4.99",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/ao8gkjxdtqmt2q1cj2bpzffi3vh3",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/terrainvol1",
       "gumroad_product_id": "hcPlR",
       "shopify_url": "",
@@ -583,7 +641,11 @@
         "library": "maps",
         "subfolder": "RFX_Terrain_Vol1"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/ao8gkjxdtqmt2q1cj2bpzffi3vh3"
+      ],
+      "long_description": "Hi Guys, Welcome to Terrain Collection Vol 1\n\nWHAT'S INCLUDED IN THIS PACK\n\n- 6 Displacement Maps | 8K Resolution | Tiff Format\n- Color & Normal Map | 8K Resolution | PNG Format\n- For each terrain shape, there is a render for a quick preview.\n\nThese maps are ready to work with every software you use — Maya, Cinema 4D, 3DS Max, Blender, MODO, Houdini — and can be used by different render systems as well — Arnold, Octane, Redshift, Corona, V-Ray, Pro-Render, Physical.\n\nEnjoy the pack!"
     },
     {
       "id": "RFX_Cloth_Vol1",
@@ -594,7 +656,7 @@
       "kind": "asset",
       "status": "paid",
       "price": "$4.99",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/qy0b38q94kz09triipxy7kqyv0n0",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/clothvol1",
       "gumroad_product_id": "KcvwT",
       "shopify_url": "",
@@ -610,7 +672,11 @@
         "library": "3d",
         "subfolder": "RFX_Cloth_Vol1"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/qy0b38q94kz09triipxy7kqyv0n0"
+      ],
+      "long_description": "Cloth Collection Volume 1\n\nCloth Collection Volume 1 is a collection of 100 unique static cloth models. Each model is 150 x 150 subdivision in an OBJ format. Give your dailies a unique new look. These cloth models can be used for all sorts of purposes. Feel free to look at some of my personal renders to get some idea of how to explore them. Dive into creating a new look for your renders.\n\nWhat's Inside:\n\n- 100 Static Cloth Models — 150x150 Subd — .OBJ Format\n- 100 Preview Images for all models\n- 1 Bonus Animated Cloth File — Alembic Format\n\nDetails\n\n- Compatible with any 3D program or render engine."
     },
     {
       "id": "RFX_CloudVDB_Vol1",
@@ -621,7 +687,7 @@
       "kind": "asset",
       "status": "paid",
       "price": "$4.99",
-      "thumbnail": "",
+      "thumbnail": "https://public-files.gumroad.com/oaezop6wpa5o0jsntnfh4thvjssg",
       "gumroad_url": "https://reimagine-fx.gumroad.com/l/cloudvdbvol1",
       "gumroad_product_id": "UAzVO",
       "shopify_url": "",
@@ -637,7 +703,11 @@
         "library": "vdb",
         "subfolder": "RFX_CloudVDB_Vol1"
       },
-      "coming_soon": false
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/oaezop6wpa5o0jsntnfh4thvjssg"
+      ],
+      "long_description": "Hi Guys, Welcome to Cloud VDB Collection\n\nAs everyday artists, designers struggle to find new ideas and creativity for daily renders. This was specifically designed for that purpose so that everyday artists can boost up their render game by creating very interesting renders with cloud VDB. This pack lets you add a little bit extra to your creativity to give more eye-catching renders. If you want to look at some examples you can check out my Instagram to see what kind of renders I've done personally using this cloud VDB. Thank You.\n\nWHAT'S INCLUDED IN THIS PACK\n\n- 20 High-Quality Static Cloud OpenVDB files\n- Preview of each cloud (rendered images)\n\nProduct Details\n\n- File Size: 2.75 GB\n- File Type: .rar\n- Compatibility: Any VDB-compatible software\n- Version: 1.0\n\nEnjoy the pack!"
     },
     {
       "id": "RFX_FullPipeline_Course",
