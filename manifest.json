@@ -1,7 +1,7 @@
 {
   "hub_version": "1.0",
   "manifest_schema": 2,
-  "updated": "2026-06-26",
+  "updated": "2026-07-07",
   "items": [
     {
       "id": "RFX_Suite",
@@ -67,7 +67,9 @@
       "downloads": [
         {
           "url": "https://raw.githubusercontent.com/amarshindebiz/rfx_hub/main/releases/download/ReimagineFx_FocusPicker.zip",
-          "format": "zip"
+          "format": "zip",
+          "hash": "sha256:2473a16ece581810762513a6de39bbeb980b762d2f2f209bf5e0850652fda5ad",
+          "size_bytes": 57181
         }
       ],
       "install": {
@@ -426,7 +428,9 @@
       "downloads": [
         {
           "url": "https://raw.githubusercontent.com/amarshindebiz/rfx_hub/main/releases/download/RFX_MayaViewer.zip",
-          "format": "zip"
+          "format": "zip",
+          "hash": "sha256:e78fa093bb13c51a5473806f0d51c7b197c25f9965656db126dfa9f5d13315c4",
+          "size_bytes": 137527
         }
       ],
       "install": {
