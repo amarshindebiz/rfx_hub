@@ -1,7 +1,7 @@
 {
   "hub_version": "1.0",
   "manifest_schema": 2,
-  "updated": "2026-07-07",
+  "updated": "2026-07-14",
   "items": [
     {
       "id": "RFX_Suite",
@@ -298,7 +298,11 @@
       "gallery": [
         "https://public-files.gumroad.com/d0zmh97l8vdwymx13h58pijom2kl"
       ],
-      "long_description": "HDRI Studio Essential Kit\n\nHDRI Studio Essential Kit is a collection of 90 unique HDRIs. Each HDR is designed to give a unique and moody look to your renders. Each HDRI is 10K x 5K resolution in an HDR format (32 Bit). It is compatible with any 3D program. No more manual lighting for your scenes — just drop one HDRI and you're good to go. Enjoy.\n\nWhat's Inside:\n\n- 8 Folders\n- Total 90 HDRI files\n- Thumbnail preview for each HDRI\n\nFolders:\n\n- Basic (15 HDRI)\n- Dark (10 HDRI)\n- Sepia (10 HDRI)\n- Neon (10 HDRI)\n- Stripes (10 HDRI)\n- Tint (10 HDRI)\n- Vivid (10 HDRI)\n- Bonus (15 HDRI)\n\nAll HDRIs are compatible with all render engines."
+      "long_description": "HDRI Studio Essential Kit\n\nHDRI Studio Essential Kit is a collection of 90 unique HDRIs. Each HDR is designed to give a unique and moody look to your renders. Each HDRI is 10K x 5K resolution in an HDR format (32 Bit). It is compatible with any 3D program. No more manual lighting for your scenes — just drop one HDRI and you're good to go. Enjoy.\n\nWhat's Inside:\n\n- 8 Folders\n- Total 90 HDRI files\n- Thumbnail preview for each HDRI\n\nFolders:\n\n- Basic (15 HDRI)\n- Dark (10 HDRI)\n- Sepia (10 HDRI)\n- Neon (10 HDRI)\n- Stripes (10 HDRI)\n- Tint (10 HDRI)\n- Vivid (10 HDRI)\n- Bonus (15 HDRI)\n\nAll HDRIs are compatible with all render engines.",
+      "preview": {
+        "type": "hdri",
+        "set": "hdri_studio"
+      }
     },
     {
       "id": "RFX_FullPipeline_Course",
@@ -545,9 +549,7 @@
       "external_url": "https://apps.apple.com/app/viewport-3d/id6777973275",
       "coming_soon": false,
       "gallery": [
-        "https://reimaginefx.com/vpimages/shot-home.png",
-        "https://reimaginefx.com/vpimages/shot-viewport.png",
-        "https://reimaginefx.com/vpimages/shot-textures.png"
+        "https://reimaginefx.com/vpimages/shot-viewport.png"
       ],
       "long_description": "Viewport — Open, inspect & preview 3D files on iPhone\n\nViewport is a fast, focused 3D viewer built by Amar Shinde at Reimagine Fx. Open models straight from the Files app — iCloud Drive, Google Drive, Dropbox, OneDrive, Downloads or AirDrop — and inspect them in a clean, professional viewport. Orbit, study materials and scale, play animations, and preview in AR. No account. No cloud. No clutter.\n\nFeatures\n\n- Open almost anything — USD, USDZ, USDA, USDC and .reality load natively; OBJ, STL, PLY, FBX, glTF, GLB, DAE and 20+ more via the in-app importer\n- Inspect like a pro — smooth orbit, pan, pinch-zoom, double-tap to frame; studio lighting presets with adjustable intensity\n- Render channels — switch between shaded, albedo, normals, roughness and UV views\n- Animation playback — node/transform animation and skeletal (bone) skinning on supported models\n- AR preview — everything runs on-device; your files never leave your iPhone\n\nNow live on the App Store."
     }
