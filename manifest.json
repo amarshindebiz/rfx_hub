@@ -1,7 +1,7 @@
 {
   "hub_version": "1.0",
   "manifest_schema": 2,
-  "updated": "2026-07-14",
+  "updated": "2026-07-16",
   "items": [
     {
       "id": "RFX_Suite",
@@ -66,22 +66,54 @@
       "shopify_url": "",
       "downloads": [
         {
-          "url": "https://raw.githubusercontent.com/amarshindebiz/rfx_hub/main/releases/download/ReimagineFx_FocusPicker.zip",
+          "url": "https://raw.githubusercontent.com/amarshindebiz/rfx_hub/main/releases/download/RimagineFx_FocusPicker.zip",
           "format": "zip",
-          "hash": "sha256:2473a16ece581810762513a6de39bbeb980b762d2f2f209bf5e0850652fda5ad",
-          "size_bytes": 57181
+          "hash": "sha256:0aaacdbde27ec18c18114e09171ce8d4cdce162f02f82f8db0a51103879ae875",
+          "size_bytes": 39461
         }
       ],
       "install": {
         "dcc": "maya",
         "target": "scripts",
-        "subfolder": "RFX_FocusPicker"
+        "subfolder": ""
       },
       "coming_soon": false,
       "gallery": [
         "https://public-files.gumroad.com/6aqi6j6iyqnwaex7voz8jk2zbo67"
       ],
       "long_description": "RFX FocusPicker — Arnold Camera Focus Tool for Maya\n\nStop reading numbers from the HUD. Stop typing them in by hand. One click in the viewport sets your focus distance instantly.\n\nWhat it does\n\nRFX FocusPicker is a professional depth-of-field workflow tool for Maya and Arnold. It replaces the slow, frustrating process of manually finding and entering focus distances with a single viewport ray-cast. Click any surface in your scene and the exact distance is measured and written directly to your Arnold camera — no HUD, no guesswork, no interruption to your creative flow.\n\nFeatures\n\n- One-click viewport pick — click any mesh surface to set focus distance instantly\n- Live two-way sync — change values in the plugin and they update in Arnold's attribute editor immediately, and vice versa. Edit from the Channel Box, Arnold tab, or our tool — everything stays in sync\n- Ctrl+MMB drag on the field or drag the label to scrub values exactly like Maya's Channel Box\n- DOF toggle — enable and disable Arnold depth of field with a single checkbox\n- Aperture control — adjust aiApertureSize with full scrub support\n- Camera management — create new RFX cameras, delete cameras, and switch between all render cameras in the scene from one dropdown\n- Refresh without losing your camera — clicking Refresh always returns to your current camera, never jumps to a different one\n- Resizable window — drag the window wider to give your controls more room\n- One-click shelf installer — installs a button on the ReimagineFx_Tools shelf automatically. Safe to run multiple times, never creates duplicates\n- Arnold-first with native Maya fallback — works with Arnold cameras. Falls back to native Maya focus attributes if Arnold is not present\n\nRequirements\n\n- Maya 2025 or Maya 2026\n- Arnold for Maya (MtoA) installed and loaded\n- Windows 10 or 11\n\nWhat's included\n\n- RFX FocusPicker plugin folder (ready to install)\n- Step-by-step Installation Guide PDF\n- Shelf installer script\n\nInstallation takes under two minutes. Copy one folder to your Maya scripts directory, paste four lines into the Script Editor, and you're done. Full instructions are included in the PDF.\n\nAbout Reimagine Fx\n\nRFX FocusPicker was built by Amar Shinde at Reimagine Fx to help 3D Artists work faster and smarter inside Maya and Arnold. Every detail was crafted to fit naturally into your existing workflow — not replace it.\n\nIf you enjoy using the tool, please consider leaving a review or sharing it with a fellow artist. It means the world to us and helps us keep building professional tools for the Maya community.\n\nwww.reimaginefx.com"
+    },
+    {
+      "id": "RFX_GLTFExporter",
+      "name": "glTF Exporter for Maya",
+      "description": "FREE. Export clean glTF 2.0 and GLB files straight from Maya 2026 — geometry, PBR materials, textures and lights, ready for web, AR and real-time.",
+      "version": "1.0.0",
+      "category": "Maya / Export",
+      "kind": "plugin",
+      "status": "free",
+      "price": "",
+      "thumbnail": "https://public-files.gumroad.com/0uk8yp0zrujz8yfgnkbtgtyeigny",
+      "gumroad_url": "https://reimagine-fx.gumroad.com/l/gltfexporter",
+      "gumroad_product_id": "",
+      "shopify_url": "",
+      "downloads": [
+        {
+          "url": "https://raw.githubusercontent.com/amarshindebiz/rfx_hub/main/releases/download/RFX_GLTF_Exporter.zip",
+          "format": "zip",
+          "hash": "sha256:d4db47ed63533a6af416836276489c1f8b6528a2affd7186fdb3f0cfc24c983e",
+          "size_bytes": 2175563
+        }
+      ],
+      "install": {
+        "dcc": "maya",
+        "target": "scripts",
+        "subfolder": ""
+      },
+      "coming_soon": false,
+      "gallery": [
+        "https://public-files.gumroad.com/0uk8yp0zrujz8yfgnkbtgtyeigny"
+      ],
+      "long_description": "RFX glTF Exporter for Maya\n\nExport clean, portable glTF 2.0 and GLB files directly from Maya 2026. RFX glTF Exporter converts your Maya geometry, materials, textures and lights into a format ready for web viewers, mobile devices, AR experiences and real-time applications.\n\nKey Features\n\n- Export .gltf with external textures and buffers\n- Export a self-contained .glb file with embedded textures\n- Supports Standard Surface, OpenPBR, Arnold and MaterialX workflows\n- Preserves UVs, normals, tangents, vertex colors and hierarchy\n- Converts materials to portable metallic-roughness PBR\n- Packs separate metallic and roughness maps automatically\n- Converts unsupported texture formats to PNG\n- Supports multi-material meshes and punctual lights\n- Export selected objects or all visible meshes\n- Clear progress, warnings and completion reporting\n- Branded shelf icon and shared Reimagine Fx Tools menu\n\nDesigned for Delivery\n\nUse GLB with embedded textures when you need one portable file for web and product viewers, iPhone and mobile previews, Three.js and Babylon.js, Blender and other glTF-compatible applications, and AR / real-time presentations.\n\nRequirements\n\n- Autodesk Maya 2026\n- Windows 10 or Windows 11\n\nNote: Animation, skinning, blendshapes, UDIM expansion and compression formats such as Draco or KTX2 are not currently included.\n\nCreated by Reimagine Fx — www.reimaginefx.com"
     },
     {
       "id": "RFX_AreaLightMaps_Plugin",
